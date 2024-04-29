@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Buscaminas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body oncontextmenu="return false">
+  <div>
+    <br>
+    <span id="juego-nuevo" onclick="nuevoJuego()">
+      Juego Nuevo
+    </span>
+    <input class="swal2-input" type="number" value=${filas} placeholder="000" id="filas" min="10" max="1000" step="1">
+  </div>
+  <br>
+
+  <table cellspacing="0" cellpadding="0" id="tablero">
+  </table>
+  <script src="script.js"> </script>
+</body>
+
+</html>

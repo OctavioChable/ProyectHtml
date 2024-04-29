@@ -1,0 +1,47 @@
+
+* {
+  transition: all 1s;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: calibri;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  background: rgb(81, 59, 83);
+}
+
+table {
+  background: rgb(5, 59, 113);
+  margin: 20px auto;
+}
+
+td {
+  border: rgba(3, 3, 3, 0.861) 1px solid;
+  text-align: center;
+  font-size: 120%;
+  color: rgb(241, 241, 241);
+}
+
+#juego-nuevo,
+td{
+  box-shadow: inset 3px 3px 0 0 rgb(255, 255, 255),
+    inset -3px -3px 0 0 rgba(0, 0, 0, 0.5);
+}
+
+#juego-nuevo{
+  padding: 10px;
+  margin: 10px;
+}
+
+#juego-nuevo {
+  background: rgb(2, 183, 255);
+  cursor: pointer;
+}
+
+#filas {
+  background: black;
+  color: red;
+}
